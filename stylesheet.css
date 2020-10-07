@@ -1,4 +1,38 @@
-.header{
-    padding-top: 1em;
-    padding-bottom: 1em;
+.container{
+    padding-top: 5px;
 }
+.card{
+   margin: 5px;
+}
+@media only screen and (min-width: 600px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+    }
+  }
+  .skills {
+    width: 100%; 
+  background-color: #ddd;
+  }
+    .skill{
+        text-align: right; 
+        padding-top: 10px; 
+        padding-bottom: 10px;
+        color: white;
+        margin-bottom: 5px;
+    }
+    .java {width: 90%; background-color: #4CAF50;} 
+    .dbms {width: 80%; background-color: #43c09b;} 
+    .php {width: 45%; background-color: #99af4c;} 
+    .c {width: 75%; background-color: #4c82af;} 
+    .sql {width: 60%; background-color: #4dbfd3;} 
+    .html {width: 75%; background-color: #4CAF50;} 
+    .css {width: 80%; background-color: #43c09b;} 
+    .cpp {width: 70%; background-color: #4c82af;} 
+    .py {width: 45%; background-color: #99af4c;} 
